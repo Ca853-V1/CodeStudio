@@ -1,0 +1,50 @@
+# Online Code Editor
+
+## Objective
+This is a web-based **Online Code Editor** built using **React framework boilerplate**, designed to write and test **HTML, CSS, and JavaScript** code snippets. The project utilizes the **CodeMirror** dependency as the text editor for the coding interface.
+
+## Features
+- **Three Code Containers** (HTML, CSS, and JavaScript) in the **Upper Pane**.
+- **Live Preview** of the code output in the **Lower Pane**.
+- **CodeMirror Integration** for an enhanced coding experience.
+- **Contract/Expand Button** for ease of view for each editor.
+
+## Project Structure
+```
+ONLINE-CODE-EDITOR/
+│-- node_modules/             # Installed dependencies
+│-- public/
+│-- src/
+│   │-- Components/           # Contains reusable UI components
+│   │   ├── CSSEditor.js      # Handling CSS Input
+│   │   ├── Editor.js         # Wraps the panes and editors 
+│   │   ├── HTMLEditor.js     # Handling HTML Input
+│   │   ├── JSEditor.js       # Handling JavaScript Input
+│   │   ├── LowerPane.js      # Displays the output
+│   │   ├── UpperPane.js      # Appbar
+│   │-- App.css               # Main CSS file
+│   │-- App.js                # Main React component
+│   │-- index.css             # Global CSS styles
+│   │-- index.js              # Main entry point
+│   │-- reportWebVitals.js    # Performance monitoring
+│-- contract.png, expand.png, html_img.png, js_img.png, refresh.png # UI assets
+│-- package-lock.json         # npm package lock file
+│-- package.json              # Project dependencies
+│-- README.md                 # Project documentation
+```
+
+## Installation & Usage
+### Clone the Repository
+```sh
+git clone <repository-url>
+cd online-code-editor
+```
+### Install Dependencies
+```sh
+npm install
+```
+### Run the Application
+```sh
+npm run start
+```
+This will start the project on **localhost:3000**.
