@@ -12,21 +12,19 @@ This is a web-based **Online Code Editor** built using **React framework boilerp
 ## Project Structure:
 ```
 ONLINE-CODE-EDITOR/
-│-- node_modules/                                                   # Installed dependencies
 │-- src/
-│   │-- Components/                                                 # Contains reusable UI components
-│   │   ├── CSSEditor.js                                            # Handling CSS Input
-│   │   ├── Editor.js                                               # Wraps the panes and editors 
-│   │   ├── HTMLEditor.js                                           # Handling HTML Input
-│   │   ├── JSEditor.js                                             # Handling JavaScript Input
-│   │   ├── LowerPane.js                                            # Displays the output
-│   │   ├── UpperPane.js                                            # Appbar
-│   │-- App.js                                                      # Main React component
-│   │-- index.js                                                    # Main entry point
-│-- contract.png, expand.png, html_img.png, js_img.png, refresh.png # UI assets
-│-- package-lock.json                                               # npm package lock file
-│-- package.json                                                    # Project dependencies
-│-- README.md                                                       # Project documentation
+│   │-- Components/
+│   │   ├── CSSEditor.js          # Handling CSS Input
+│   │   ├── Editor.js             # Wraping the Panes and Editors 
+│   │   ├── HTMLEditor.js         # Handling HTML Input
+│   │   ├── JSEditor.js           # Handling JavaScript Input
+│   │   ├── LowerPane.js          # Displays the Output
+│   │   ├── UpperPane.js          # Appbar
+│   │-- App.js                    # Main React component
+│   │-- index.js                  # Main entry point
+│-- package-lock.json             # npm package lock file
+│-- package.json                  # Project Dependencies
+│-- README.md
 ```
 
 ## Installation & Usage:
