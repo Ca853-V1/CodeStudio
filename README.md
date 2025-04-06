@@ -13,7 +13,6 @@ This is a web-based **Online Code Editor** built using **React framework boilerp
 ```
 ONLINE-CODE-EDITOR/
 │-- node_modules/                                                   # Installed dependencies
-│-- public/
 │-- src/
 │   │-- Components/                                                 # Contains reusable UI components
 │   │   ├── CSSEditor.js                                            # Handling CSS Input
@@ -22,11 +21,8 @@ ONLINE-CODE-EDITOR/
 │   │   ├── JSEditor.js                                             # Handling JavaScript Input
 │   │   ├── LowerPane.js                                            # Displays the output
 │   │   ├── UpperPane.js                                            # Appbar
-│   │-- App.css                                                     # Main CSS file
 │   │-- App.js                                                      # Main React component
-│   │-- index.css                                                   # Global CSS styles
 │   │-- index.js                                                    # Main entry point
-│   │-- reportWebVitals.js                                          # Performance monitoring
 │-- contract.png, expand.png, html_img.png, js_img.png, refresh.png # UI assets
 │-- package-lock.json                                               # npm package lock file
 │-- package.json                                                    # Project dependencies
@@ -45,7 +41,7 @@ npm install
 ```
 ### 3) Run the Application
 ```sh
-npm run start
+npm start
 ```
 This will start the project on **localhost:3000**.
 
