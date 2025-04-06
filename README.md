@@ -36,7 +36,7 @@ ONLINE-CODE-EDITOR/
 ## Installation & Usage:
 ### 1) Clone the Repository
 ```sh
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Ca853-V1/CodeStudio.git)
 cd online-code-editor
 ```
 ### 2) Install Dependencies
