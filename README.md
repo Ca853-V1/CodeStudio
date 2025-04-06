@@ -50,5 +50,5 @@ npm run start
 This will start the project on **localhost:3000**.
 
 ## Future Scope: 
-- Multi language Support
-- Cloud based storage and user authentication
+- Multi-Language Support
+- Cloud-based Storage and User Authentication
