@@ -1,7 +1,7 @@
 # Online Code Editor -
 
 ## Objective:
-This is a web-based **Online Code Editor** built using **React framework boilerplate**, designed to write and test **HTML, CSS, and JavaScript** code snippets. The project utilizes the **CodeMirror** dependency as the text editor for the coding interface.
+This is a web-based **Online Code Editor** built using **React framework boilerplate**, designed to write and test **HTML, CSS, and JavaScript** code snippets.
 
 ## Features:
 - **Three Code Containers** (HTML, CSS, and JavaScript) in the **Upper Pane**.
