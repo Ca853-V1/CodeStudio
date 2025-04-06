@@ -14,16 +14,16 @@ This is a web-based **Online Code Editor** built using **React framework boilerp
 ONLINE-CODE-EDITOR/
 │-- src/
 │   │-- Components/
-│   │   ├── CSSEditor.js          # Handling CSS Input
-│   │   ├── Editor.js             # Wraping the Panes and Editors 
-│   │   ├── HTMLEditor.js         # Handling HTML Input
-│   │   ├── JSEditor.js           # Handling JavaScript Input
-│   │   ├── LowerPane.js          # Displays the Output
-│   │   ├── UpperPane.js          # Appbar
-│   │-- App.js                    # Main React component
-│   │-- index.js                  # Main entry point
-│-- package-lock.json             # npm package lock file
-│-- package.json                  # Project Dependencies
+│   │   ├── CSSEditor.js              # Handling CSS Input
+│   │   ├── Editor.js                 # Wraping the Panes and Editors 
+│   │   ├── HTMLEditor.js             # Handling HTML Input
+│   │   ├── JSEditor.js               # Handling JavaScript Input
+│   │   ├── LowerPane.js              # Displays the Output
+│   │   ├── UpperPane.js              # Appbar
+│   │-- App.js                  # Main React component
+│   │-- index.js                # Main entry point
+│-- package-lock.json     # npm package lock file
+│-- package.json          # Project Dependencies
 │-- README.md
 ```
 
